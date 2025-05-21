@@ -1,17 +1,21 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Min Theme",
+  "name": "Mint Theme",
   "author": "phibr0",
   "themes": [
     {
-      "name": "Min Dark (Solid)",
+      "name": "Mint Dark (Solid)",
       "appearance": "dark",
       "style": {
         "border": "#2A2A2A",
         "background": "#141414",
         "element.hover": "#2A2A2A",
         "element.selected": "#2A2A2A",
-        "ghost_element.selected": "#2A2A2A",
+        "ghost_element.background": "#7aa4a120",
+        "ghost_element.hover": "#7aa4a135",
+        "ghost_element.active": "#7aa4a145",
+        "ghost_element.selected": "#7aa4a130",
+        "ghost_element.disabled": "#6d7f8b20",
         "text": "#999999",
         "text.muted": "#999999",
         "text.accent": "#79B8FF",
@@ -166,14 +170,18 @@
       }
     },
     {
-      "name": "Min Dark (Blurred)",
+      "name": "Mint Dark (Blurred)",
       "appearance": "dark",
       "style": {
         "border": "#2A2A2A",
         "background": "#1A1A1Ac0",
         "element.hover": "#2A2A2A",
         "element.selected": "#2A2A2A",
-        "ghost_element.selected": "#2A2A2A",
+        "ghost_element.background": "#7aa4a120",
+        "ghost_element.hover": "#7aa4a135",
+        "ghost_element.active": "#7aa4a145",
+        "ghost_element.selected": "#7aa4a130",
+        "ghost_element.disabled": "#6d7f8b20",
         "text": "#999999",
         "text.muted": "#999999",
         "text.accent": "#79B8FF",
@@ -329,14 +337,18 @@
       }
     },
     {
-      "name": "Min Light (Solid)",
+      "name": "Mint Light (Solid)",
       "appearance": "light",
       "style": {
         "border": "#E9E9E9",
         "background": "#FBFBFB",
         "element.hover": "#EDEDED",
         "element.selected": "#EDEDED",
-        "ghost_element.selected": "#EDEDED",
+        "ghost_element.background": "#7aa4a120",
+        "ghost_element.hover": "#7aa4a135",
+        "ghost_element.active": "#7aa4a145",
+        "ghost_element.selected": "#7aa4a130",
+        "ghost_element.disabled": "#6d7f8b20",
         "text": "#606060",
         "text.muted": "#606060",
         "text.accent": "#1976D2",
@@ -492,14 +504,18 @@
       }
     },
     {
-      "name": "Min Light (Blurred)",
+      "name": "Mint Light (Blurred)",
       "appearance": "light",
       "style": {
         "border": "#E9E9E9",
         "background": "#FFFFFFD0",
         "element.hover": "#EDEDED",
         "element.selected": "#EDEDED",
-        "ghost_element.selected": "#EDEDED",
+        "ghost_element.background": "#7aa4a120",
+        "ghost_element.hover": "#7aa4a135",
+        "ghost_element.active": "#7aa4a145",
+        "ghost_element.selected": "#7aa4a130",
+        "ghost_element.disabled": "#6d7f8b20",
         "text": "#606060",
         "text.muted": "#606060",
         "text.accent": "#1976D2",
